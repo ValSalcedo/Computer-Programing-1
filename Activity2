@@ -1,0 +1,60 @@
+package activity2.java;
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+
+Scanner scanner = new Scanner (System.in);
+
+System.out.println(&quot;Please Input Your Full Name:&quot;);
+String name = scanner.nextLine();
+
+System.out.println(&quot;************************************&quot;);
+System.out.println(&quot;Hello, &quot;+name);
+
+System.out.println(&quot;************************************&quot;);
+System.out.println(&quot;THIS IS YOUR CURRENT STATUS:&quot;);
+
+int level = 150;
+int mana = 100000;
+int age = 19;
+double Perhr = 200.0;
+String role1 = (&quot;Assassin&quot;);
+String role2 = (&quot;Mage&quot;);
+
+System.out.println(&quot;Your level: &quot; + level);
+System.out.println(&quot;Mana &quot; + mana);
+System.out.println(&quot;Age: &quot; + age);
+
+System.out.println(&quot;Gold Per Task: &quot; + Perhr);
+System.out.println(&quot;Role 1: &quot; + role1);
+System.out.println(&quot;Role 2: &quot; + role2);
+
+System.out.println(&quot;************************************&quot;);
+
+Double sss, pag_Ibig, philHealth;
+
+sss = 200.0;
+pag_Ibig = 200.0;
+philHealth = 200.0;
+
+Double deductions = sss + pag_Ibig + philHealth;
+
+int total_Hours = 24;
+
+double total_Payment = Perhr * total_Hours;
+
+System.out.println(&quot;Total Hour Render :&quot; + total_Hours);
+
+System.out.println(&quot;Total Payment :&quot; + total_Hours);
+
+System.out.println(&quot;Total Deduction :&quot; + deductions);
+
+double net = total_Payment - deductions;
+
+System.out.println(&quot;Net Salary :&quot; + net );
+
+}
+
+}
